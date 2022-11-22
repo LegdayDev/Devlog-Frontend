@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 880px;
+    background-size: 100%;
+}
+
+nav {
+    display: grid;
+    /* flex 보다 더 이후에 나옴*/
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+i {
+    font-size: 20px;
+}
+
+.menu ul {
+    margin: 10px 20px 0 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    list-style: none;
+}
+
+
+.menu ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.menu ul i {
+    font-size: 30px;
+}
+
+.menu ul .btn_icon {
+    border: none;
+    background-color: white;
+}
