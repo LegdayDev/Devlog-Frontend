@@ -31,8 +31,22 @@
 }
 
 .navigation ul:hover {
-    text-decoration: underline;
-    color: green;
+    text-decoration: none;
+
+}
+
+
+.notice_list {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.card_box {
+    margin: 20px;
+    width: 300px;
+    text-align: center;
 }
 
 
