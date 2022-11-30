@@ -5,7 +5,7 @@
 }
 
 header {
-    height: 880px;
+    height: 150px;
     background-size: 100%;
 }
 
@@ -17,9 +17,9 @@ nav {
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
-    margin-left: 10px;
+    margin: 12px;
 }
 
 i {
@@ -27,7 +27,7 @@ i {
 }
 
 .menu ul {
-    margin: 10px 20px 0 0;
+    margin: 20px 20px 0 0;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 30px;
