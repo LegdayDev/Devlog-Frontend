@@ -22,6 +22,11 @@ nav {
     margin: 12px;
 }
 
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
 i {
     font-size: 20px;
 }
