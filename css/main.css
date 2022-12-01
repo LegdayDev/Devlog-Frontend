@@ -62,5 +62,9 @@
 /* mainpage end */
 
 /* modal start */
+.modal-body {
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
 /* modal end */
