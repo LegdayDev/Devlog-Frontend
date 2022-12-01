@@ -23,6 +23,7 @@
 </head>
 
 <body>
+
     <header>
         <nav>
             <div class="logo">Devlog</div>
@@ -31,7 +32,8 @@
                     <li><button class="btn_icon" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </li>
                     <li><button class="btn_icon" type="button"><i class="fa-solid fa-sun"></i></button></li>
-                    <li><button type="button" class="btn btn-dark">로그인</button></li>
+                    <li><button id="btn_login" type="button" data-bs-toggle="modal" data-bs-target="#myModal"
+                            class="btn btn-dark">로그인</button></li>
                 </ul>
             </div>
         </nav>
@@ -74,6 +76,33 @@
         </nav>
     </header>
     <main>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">로그인 및 회원가입</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="left_login" style="background-color: rgb(241, 237, 237);">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <div class="right_login">로그인</div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <section>
             <div class="list">
                 <div class="notice_list">
