@@ -1,0 +1,64 @@
+/* mainpage start */
+
+.notice_page {
+    margin-left: 10px;
+
+}
+
+.notice_page ul {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+.dropdown {
+    margin-right: 40px;
+}
+
+.navigation {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.navigation ul {
+    margin: 10px 20px 0 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    list-style: none;
+}
+
+.navigation ul i {
+    font-size: 30px;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+
+}
+
+.navigation ul:hover {
+    text-decoration: none;
+
+}
+
+
+.notice_list {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.card_box {
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+/* mainpage end */
