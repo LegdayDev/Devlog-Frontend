@@ -23,15 +23,17 @@
 </head>
 
 <body>
+
     <header>
         <nav>
-            <div class="logo">Devlog</div>
+            <div class="logo"><a href=main.html>Devlog</a></div>
             <div class="menu">
                 <ul>
                     <li><button class="btn_icon" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </li>
                     <li><button class="btn_icon" type="button"><i class="fa-solid fa-sun"></i></button></li>
-                    <li><button type="button" class="btn btn-dark">로그인</button></li>
+                    <li><button id="btn_login" type="button" data-bs-toggle="modal" data-bs-target="#myModal"
+                            class="btn btn-dark">로그인</button></li>
                 </ul>
             </div>
         </nav>
@@ -74,6 +76,63 @@
         </nav>
     </header>
     <main>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">로그인 및 회원가입</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="left_login" style="background-color: rgb(241, 237, 237);">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <div>
+                                환영합니다!
+                            </div>
+                        </div>
+                        <div class="right_login">
+                            <div class="login_div">
+                                <div class="login">로그인</div>
+
+                                <form class="login_form" action="#">
+                                    <div class="mb-3 mt-3">
+                                        <label for="email">이메일로 로그인</label>
+                                        <input type="email" class="form-control" id="email" placeholder="이메일을 입력하세오"
+                                            name="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pwd">비밀번호</label>
+                                        <input type="password" class="form-control" id="pwd" placeholder="비밀번호를 입력하세요"
+                                            name="pswd">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-success">로그인</button>
+                                </form>
+                                <div class="sns">소설계정으로 로그인</div>
+                                <div class="sns_box">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-google"></i>
+                                </div>
+                                <div class="join">
+                                    <string>아직 회원이 아니신가요?</string><a href="#">회원가입</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <section>
             <div class="list">
                 <div class="notice_list">
