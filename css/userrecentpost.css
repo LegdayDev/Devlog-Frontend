@@ -1,0 +1,119 @@
+/* mainpage start */
+
+.trend_page {
+    margin-left: 10px;
+
+}
+
+.notice_page ul {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+.dropdown {
+    margin-right: 40px;
+}
+
+.navigation {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.navigation ul {
+    margin: 10px 20px 0 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    list-style: none;
+}
+
+.navigation ul i {
+    font-size: 30px;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+
+}
+
+.navigation ul:hover {
+    text-decoration: none;
+
+}
+
+
+.notice_list {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.card_box {
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* mainpage end */
+
+/* modal start */
+.modal-body {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.left_login {
+    width: 100%;
+    /* 정렬하려는 요소의 넓이를 반드시 지정 */
+    margin: 0 auto;
+}
+
+
+.left_login i {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+}
+
+.left_login div {
+
+    margin-top: 50px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.right_login {
+    padding: 40px 120px 40px 30px;
+}
+
+.right_login .login {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.right_login .login_form {
+    margin-bottom: 20px;
+}
+
+.sns {
+    font-weight: 100;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.sns_box i {
+    font-size: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* modal end */
