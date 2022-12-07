@@ -3,15 +3,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-.cancle_next{
-    margin-top: 70px;
+.skill_select{
+    width: 200px;
+    height: 30px;
 }
 input[type=text]{
     width:300px;
-    height:40px;
+    height:100px;
     font-size:20px;
-    border:0 
-    solid black;
 }
 input[type=button]{
     width: 60px;
@@ -23,7 +22,7 @@ input[type=button]{
     border-radius: 12px;
     border: 0;
 }
-.next_btn{
+.comple_btn{
     margin-left: 20px;
     background-color: rgb(64, 244, 184);
     color: white;
