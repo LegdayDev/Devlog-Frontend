@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>join</title>
-    
+    <link href="./css/join.css" rel="stylesheet">
+    <title>UserJoin</title>
 </head>
 <body>
-    <h1>환영합니다!</h1>
+    <main>
+        <div>
+            <h1>환영합니다!</h1>
+            <h2>기본 회원정보를 등록해주세요</h2>
+        </div>
+        <div class="inputbox">
+            <h3>이름</h3>
+            <input type="text" name="name" placeholder="이름을 입력하세요" >
+            <hr>
+        </div>
+        <div class="inputbox">
+            <h3>이메일</h3>
+            <input type="text" name="email" placeholder="이메일을 입력하세요">
+            <hr>
+        </div>
+        <div class="inputbox">
+            <h3>아이디</h3>
+            <input type="text" name="id" placeholder="아이디를 입력하세요">
+            <hr>
+        </div>
+        <div class="inputbox">
+            <h3>한 줄 소개</h3>
+            <input type="text" name="intro" placeholder="당신을 한 줄로 소개해보세요" >
+            <hr>
+        </div>
+        <div>
+            <h3>프리랜서 여부</h3>
+            <input type="radio" name="radio" value="YES">네
+            <input type="radio" name="radio" value="NO">아니요
+        </div>
+        <div class="cancle_next">
+            <input class="cancle_btn"type = "button" name = "cancle"  value = "취소"/>
+            <input class="next_btn" type = "button" name = "next"  value = "다음"/>
+        </div>
+    </main>
     
 </body>
 </html>
