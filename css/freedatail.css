@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    width: 1200px;
+    background-color: aqua;
+}
+
+.form_control {
+    width: 100%;
+}

@@ -17,7 +17,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <!-- 기본 CSS -->
     <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/freedatail.css" rel="stylesheet">
 
     <title>Devlog</title>
 </head>
@@ -41,7 +41,49 @@
         </nav>
     </header>
     <main>
-
+        <div class="post">
+            <div class="post_head">
+                <div class="head_title">서비스 제목</div>
+                <div class="head_date">아이디 &nbsp;&nbsp; 2022년 11월 2일</div>
+            </div>
+            <div class="post_content">
+                <div class="content_title">서비스 설명</div>
+                <textarea class="form-control" rows="8" id="comment" name="text" placeholder="서비스 내용"
+                    style="width: 700px;"></textarea>
+                <div class="content_price">가격 &nbsp;&nbsp; 100,000원</div>
+                <div class="content_data">
+                    <form>
+                        <div class="custom-file">
+                            <label for="customFile">포트폴리오 &nbsp; </label>
+                            <!-- <label class="custom-file-label" for="customFile">포트폴리오 선택</label> -->
+                            <input type="file" class="custom-file-input" id="customFile">
+                        </div>
+                    </form>
+                </div>
+                <div class="content_writer">
+                    <div class="user_image"><i class="fa-solid fa-user"></i></div>
+                    <div class="user_profile">
+                        <div class="user_name"><strong>닉네임</strong></div>
+                        <div class="user_intro">간단한 자기소개 </div>
+                        <a herf="#">수정</a>
+                        <a href="#">삭제</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post_foot">
+                <div class="reply_count">
+                    <span>1</span>개의 댓글
+                </div>
+                <form action="#">
+                    <div class="form-floating mb-3 mt-3">
+                        <textarea class="form-control" id="comment" name="text"
+                            placeholder="Comment goes here"></textarea>
+                        <label for="comment">댓글</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">댓글 등록</button>
+                </form>
+            </div>
+        </div>
     </main>
     <br />
     <hr />
