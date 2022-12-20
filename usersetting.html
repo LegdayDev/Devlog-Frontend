@@ -20,6 +20,7 @@
     <link href="./css/usersetting.css" rel="stylesheet">
     <title>UserSetting</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -35,16 +36,41 @@
         </nav>
     </header>
     <main>
-        <div>
-            <div class="profile_img"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Square_200x200.svg"></div>
-            
-            <div>
-                <input class="cancle_btn"type = "button" name = "cancle"  value = "취소"/>
-                <input class="next_btn" type = "button" name = "next"  value = "다음"/>
+        <div class="mainbox">
+            <div class="box1">
+                <div class="profile">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Square_200x200.svg">
+                    <input class="upload_btn" type="button" name="cancle" value="이미지 업로드" />
+                    <input class="delete_btn" type="button" name="next" value="이미지 제거" />
+                </div>
+                <div class='v-line'></div>
+                <div class="box2">
+                    <h2> 아이디</h2>
+                    <h3>한 줄 소개</h3>
+                </div>
             </div>
-            <div class='v-line'></div>
             
+            <br><br><br>
+            <div class="inpo">
+                <div class="inputbox">비밀번호 수정 
+                    <input type="text" name="password" placeholder="비밀번호를 입력하세요">
+                    <input class="cancle_btn"type = "button" name = "cancle"  value = "취소"/>  
+                </div>
+                <div class="inputbox">이메일 수정
+                    <input type="text" name="email" placeholder="이메일을 입력하세요">
+                    <input class="cancle_btn"type = "button" name = "cancle"  value = "취소"/>  
+                </div>
+                <div class="inputbox">한줄소개 수정
+                    <input type="text" name="intro" placeholder="한줄소개를 입력하세요">
+                    <input class="cancle_btn"type = "button" name = "cancle"  value = "취소"/>  
+                </div>
+                <div class="inputbox">Github 연결
+                    <input type="text" name="git" placeholder="링크를 입력하세요">
+                    <input class="cancle_btn"type = "button" name = "cancle"  value = "취소"/> 
+                </div>
+            </div>
         </div>
     </main>
 </body>
+
 </html>
