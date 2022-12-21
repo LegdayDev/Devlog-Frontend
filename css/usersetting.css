@@ -54,3 +54,25 @@ main{
     height: 50px;
     width: 200px;
 }
+
+.modify_btn{
+    margin-left: 30px;
+    width: 70px;
+    background-color: white;
+    border-color: black;
+    border-radius: 12px;
+    color: aquamarine;
+}
+.ms_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modify_btn2{
+    margin-right: 30px;
+    background-color: rgb(84, 124, 210);
+}
+.secession_btn{
+    background-color: rgb(234, 93, 93);
+}
