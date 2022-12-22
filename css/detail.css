@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment{
+    display: grid;
+    grid-template-columns: 250px 300px;
+}
+.mode{
+    float:right;
+}
+hr{
+    width: 750px;
+    height: 20px;
+    background-color: black;
+}
+.intro{
+    width:750px;
+    height: 100px;
+    text-align: left;
+}
+.comment_btn{
+    float:right;
+    background-color: aquamarine;
+    width: 100px;
+    height: 50px;
+    border: 0;
+}
